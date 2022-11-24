@@ -313,7 +313,9 @@ nav ul li a{
 .end1{
     padding: 10px;
 }
-
+.end1 p{ 
+ margin:0 0 28px 0;
+}
 .end1 a{
     text-decoration: none;
     padding: 10px;
