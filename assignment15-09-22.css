@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 10px;
+    background-color: aliceblue;
 
 }
 
@@ -313,11 +314,10 @@ nav ul li a{
 .end1{
     padding: 10px;
 }
-.end1 p{ 
- margin:0 0 28px 0;
-}
+
 .end1 a{
     text-decoration: none;
+    margin-top: 10px;
     padding: 10px;
     color: #3fbe3f;
     border: 2px solid;
