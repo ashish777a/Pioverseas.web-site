@@ -89,6 +89,7 @@ nav ul li {
 }
 nav ul li a{
     text-decoration: none;
+    font-size: 17px;
 }
 /* .rights .enquiry{
     display: flex;
@@ -96,6 +97,9 @@ nav ul li a{
 .page{
     display: flex;
     justify-content: space-between;
+}
+.msg-img{
+
 }
 .rights{
     border: 1px solid white;
@@ -460,7 +464,8 @@ nav ul li a{
 
 .universitie2 .collage2 .click2 img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    padding-right: 10px;
 }
 .post span{
     color: lightgreen;
