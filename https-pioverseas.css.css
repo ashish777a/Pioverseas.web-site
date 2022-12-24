@@ -210,8 +210,8 @@ nav ul li a{
     width: 100%;
 }
 .boxes .box .text{
-    padding: 10px;
-    margin: 10px;
+    padding: 19px;
+    /* margin: 10px; */
     background-color: aliceblue;
 }
 .box .text h3{
@@ -222,9 +222,13 @@ nav ul li a{
     padding: 10px;
 }
 
-.boxes.box :hover{
+.box .text:hover{
     background-color: green;
+    color: white;
 }
+
+.
+
 .box .text a{
     text-decoration: none;
     color: #369229;
@@ -282,7 +286,7 @@ nav ul li a{
     padding: 30px;
 }
 #apply{
-    background-color: green;
+    background-color: aqua;
     width: 158px;
     height: 40px;
     padding: 10px;
@@ -294,7 +298,7 @@ nav ul li a{
     /* border: 1px solid; */
 }
 #apply a:hover{
-    color: black;
+    background-color: #00af07;
 }
 
 .number{
@@ -315,18 +319,21 @@ nav ul li a{
 }
 .end1{
     padding: 10px;
+    
 }
 
 .end1 a{
     text-decoration: none;
     margin-top: 10px;
     padding: 10px;
-    color: #3fbe3f;
-    border: 2px solid;
+    color:#00af07;;
+    border: 1px solid #00af07;;
+    transition: all 0.5s ease-in;
 }
-.end a i{
+.end1 a i{
     color: #369229;
     position: relative;
+    padding: 10px;
 }
 .bottom1{
     display: flex;
@@ -415,12 +422,14 @@ nav ul li a{
 }
 .Pioverseas p{
     padding-top: 40px;
+    margin-bottom: 30px;
 }
 .Pioverseas a{
     text-decoration: none;
-    padding: 35px;
+    padding: 10px;
     color: green;
-    /* border: 1px solid; */
+    border: 1px solid;
+    transition: all 0.6s ease-in;
 }
 .rights2{
     border: 1px solid green;
@@ -468,7 +477,7 @@ nav ul li a{
     padding-right: 10px;
 }
 .post span{
-    color: lightgreen;
+    color: darkgreen;
 }
 .post h3{
     background-color: lightcyan;
@@ -476,14 +485,32 @@ nav ul li a{
     padding-left: 26px;
 }
 .post p{
-    width: 510px;
+    /* width: 510px; */
 }
-.post p span{
-    margin: 210px;
+.post a{
+    margin: 120px;
     color: lightblue;
     background-color: green;
+    text-decoration: none;
+    padding: 3px;
 }
+
 .collage2{
     display: flex;
     width: 100%;
 }
+
+.end1 p{
+    margin-bottom:40px ;
+}
+
+.end1 a:hover{
+    background-color:#00af07;
+    color: white;
+}
+
+.Pioverseas a:hover{
+    background-color: #00af07;
+    color: #fff;
+}
+
