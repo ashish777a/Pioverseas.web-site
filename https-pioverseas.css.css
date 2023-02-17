@@ -24,13 +24,22 @@ header {
 .center ul li {
     padding: 20px;
 }
+.center ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in;
+}
+.center ul li a:hover{
+    color: green;
+}
+
 
 .banner {
     /* background: url("images/unnamed11.png"); */
     background-image:url("http://pioverseas.com/wp-content/themes/twentytwentytwo-child/assets/img/hero/slider-bg-1.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 nav ul {
@@ -38,7 +47,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     list-style: none;
-    background-color: lightsteelblue;
+    background-color:#ededed;;
     font-size: 20px;
 }
 
@@ -87,24 +96,39 @@ nav ul li {
     text-decoration: none;
     border-right:1px solid;
 }
+
+.work{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.work li a{
+    position: absolute;
+}
+
 nav ul li a{
     text-decoration: none;
     font-size: 17px;
+    color: black;
+    position: relative;
+    transition: all 0.4s ease;
+
 }
-/* .rights .enquiry{
-    display: flex;
-    align-items: center; */
+
+nav ul li a:hover{
+    color: #00af07;
+}
+
 .page{
     display: flex;
     justify-content: space-between;
 }
-.msg-img{
 
-}
 .rights{
     border: 1px solid white;
     text-align: center;
-    height: 500px;
+    /* height: 500px; */
     width: 27%;
     background-color: white;
     margin: 20px;
@@ -137,19 +161,26 @@ nav ul li a{
     padding: 10px;
     font-size: 16px;
     height: 50px;
+    border: none;
+}
+.enquiry{
+    padding: 10px;
 }
 .enquiry .form textarea{
     background-color: aliceblue;
     width: 75%;
     padding: 9px;
     font-size: 15px;
+    border: none;
 }
 .form-forms input{
     background-color: green;
     color: white;
     font-size: 16px;
     width: 265px;
-    height: 35px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
 }
 .froms input{
     background-color: green;
@@ -221,13 +252,18 @@ nav ul li a{
 .box .text p{
     padding: 10px;
 }
+.text{
+    transition: all 1s ease-in-out;
+}
 
 .box .text:hover{
     background-color: green;
     color: white;
 }
 
-.
+.text a:hover{
+    color: white;
+}
 
 .box .text a{
     text-decoration: none;
@@ -246,7 +282,15 @@ nav ul li a{
     background-color: green;
     color: white;
     padding: 15px 25px;
+    transition: all 0.4s ease-in;
 }
+
+.all a:hover{
+    background-color:teal;
+    color: white;
+}
+
+
 .imgs{
     padding-top: 125px;
     /* margin: 50px; */
@@ -288,7 +332,7 @@ nav ul li a{
 #apply{
     background-color: aqua;
     width: 158px;
-    height: 40px;
+    /* height: 40px; */
     padding: 10px;
     margin-left: 160px;
 }
@@ -296,6 +340,7 @@ nav ul li a{
     color: white;
     text-decoration: none;
     /* border: 1px solid; */
+    padding: 10px;
 }
 #apply a:hover{
     background-color: #00af07;
@@ -514,3 +559,9 @@ nav ul li a{
     color: #fff;
 }
 
+.form2 {
+    background-color: aliceblue;
+    width: 75%;
+    padding: 9px;
+    font-size: 15px;
+}
